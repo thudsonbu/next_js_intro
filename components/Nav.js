@@ -1,6 +1,7 @@
 import navStyles from "../styles/Nav.module.css";
+import Link from "next/link";
 
-export default Nav = () => {
+const Nav = () => {
   return (
     <nav className={navStyles.nav}>
       <ul>
@@ -14,3 +15,5 @@ export default Nav = () => {
     </nav>
   );
 };
+
+export default Nav;

@@ -1,7 +1,7 @@
+import Nav from "./Nav.js";
 import styles from "../styles/Layout.module.css";
-import Nav from "./Nav";
 
-export default layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Nav />
@@ -11,3 +11,5 @@ export default layout = ({ children }) => {
     </>
   );
 };
+
+export default Layout;
