@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-export default about = () => {
+const about = () => {
   return (
     <div>
       <Head>
@@ -8,5 +8,7 @@ export default about = () => {
       </Head>
       <h1>About</h1>
     </div>
-  )
+  );
 };
+
+export default about;
